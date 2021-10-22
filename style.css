@@ -20,7 +20,7 @@
 }
 
 html{
-    overflow: hidden;
+    overflow-x: hidden;
     font-size: 10px;
 }
 .index-body{
