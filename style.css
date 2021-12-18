@@ -442,3 +442,69 @@ button.accordion:hover{
 .box:hover .content .image img{
     border-color: #fff;
 }
+
+
+/*========================== footer================================ */
+
+#footer{
+    background: url("./images/footer-bg.jpg") center center no-repeat;
+    color:#fff;
+    font-size: 14px;
+    position: relative;
+    background-size: cover;
+}
+
+#footer::before{
+    content:"";
+    position:absolute;
+    left:0;
+    right:0;
+    top:0;
+    bottom:0;
+    background:rgba(150,0,0,0.85);
+    z-index: 1;
+
+}
+
+#footer .footer-top{
+    position: relative;
+    z-index:2;
+    text-align: center;
+    padding: 80px 20px;
+
+}
+
+#footer .footer-top h3{
+font-size: 36px;
+font-weight: 700;
+color: #fff;
+position: relative;
+padding-bottom: 0;
+margin-bottom: 0;
+}
+
+#footer .footer-top p{
+    font-size:15px;
+    font-style: italic;
+    margin: 30px 0 0 0;
+    padding: 0;
+    color:#fff;
+}
+
+#footer .row{
+display:flex;
+flex-direction:row;
+width:100%;
+justify-content:center;
+}
+
+#footer .column{
+    display: flex;
+    flex-direction: column;
+    flex-basis: fit-content;
+
+}
+
+#footer-top .footer-top .footer-newsletter{
+    
+}
