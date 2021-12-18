@@ -506,5 +506,11 @@ justify-content:center;
 }
 
 #footer-top .footer-top .footer-newsletter{
+    text-align: center;
+    font-size: 15px;
+    margin-top: 30px;
+}
+
+form{
     
 }
