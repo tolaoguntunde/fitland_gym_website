@@ -798,7 +798,7 @@ button.accordion:hover {
     display:flex;
     flex-direction: column;
     text-align: center;
-    margin:20px 40px 20px 30px;
+    margin:20px 40px 20px 20px;
     
 }
 
@@ -819,19 +819,29 @@ margin-bottom: 10px;
     flex-wrap: wrap;
 }
 
-
-/* .contact-details::before{
+.contact-details::before{
     
     border-style:solid;
     border-color: var(--dark-red);
     content: '';
     position: absolute;
-    right: calc(50%-40px);
-    top:105%;
+    left: calc(50%-20px);
+    top:93%;
     display: block;
+    margin: 0 60px 0 -60px;
+    height: 320px;
+    border-width: 1px; 
+} 
+
+/* .contact-divider{
+    
+    border-style:solid;
+    border-color: var(--dark-red);
+    margin: 0 60px;
     height: 300px;
-    border-width: 2px;
-} */
+    border-width: 1px; 
+}  */
+
 
 .contact-details .text{
     width:90%;
